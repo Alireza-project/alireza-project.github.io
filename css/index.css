@@ -42,3 +42,187 @@ h3{
     border-radius: 20px;
     color: black;
 }
+.Portfolio {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: block;
+    transform: scale(1);
+    -ms-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  } 
+.Portfolio:hover{
+    transform: scale(0.8);
+  }
+  
+.Portfolio-cover {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: all .5s;
+  }
+  
+.Portfolio-cover:hover{
+    transform: scale(0.8)
+  } 
+.Portfolio:hover .Portfolio-cover{
+    display: block;
+    transform: translateY(0);
+    }
+.portfo-item a{
+      transition: all .5s;
+    }    
+.portfo-item a:hover{
+      color: #000000;
+      background-color: #ffffff;     
+    }
+.portfolio-text{
+      font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    transform: translateY(-15px);
+    transition: all .5s;
+    }
+.portfo-under{
+        color:black;
+ }  
+.portfo-under:hover{
+          color: #6b6969;
+ }
+.portfo-under::after{
+          content: "";
+          display: block;
+          border-bottom: 3px solid #6b6969;
+          transform: scaleX(0);
+          transform-origin: center;
+          -ms-transition: all 300ms linear 0s;
+            -moz-transition: all 300ms linear 0s;
+            -webkit-transition: all 300ms linear 0s;
+            -o-transition: all 300ms linear 0s;
+          transition: all 300ms linear 0s;
+ }        
+.portfo-under:hover::after{
+          transform: scaleX(1);
+ }
+.form-color{
+            background-color: rgba(192, 186, 186, 0.3);
+ }
+ .contact{
+    top:30px;
+  }
+  
+  .outline-f{
+    outline: 0;
+  }
+
+  .services-height{
+    height: 300px !important;
+  }
+  
+  .services-title h3{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  
+  
+  .services-item{
+    text-align: center;
+  }
+  
+  .services-item h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  
+  }
+  
+  .services-item p{
+    font-weight: 600;
+  
+  }  
+  
+  .services-icon:hover{
+    background: #1c1c1c;
+    color: #eee;
+  }
+  .about{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+  /* .social-main {
+    height: 30px;
+    }
+    .social-main-in {
+      list-style-type: none;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+    }
+    .social-main-link{
+      width: 30px;
+      height: 30px;
+      text-decoration:none;
+      text-align: center;
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    .social-main-link:hover{
+      background-color: rgba(0, 0, 0, 0.9);
+      border-color: rgba(0, 0, 0, 0.9);
+    } */
+    /* .nav-under:hover::after{
+        transform: scaleX(1);
+      } */
+      body{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-transform: capitalize;
+      }
+      /*size xs*/
+      @media screen and (max-width:575px){
+        .services-icon{
+          width: 80px;
+          height: 80px;
+          font-size: 30px !important;
+          line-height: 80px;
+          background-color: #f4f4f4;
+          transition: all .5s;
+        }
+        .bottom-fix{
+          bottom: 0;
+        }
+        .descript-style{
+          text-transform: capitalize;
+          letter-spacing: .15em;
+          height: 36px;
+          line-height: 52.8px;
+          text-align: center;
+          }
+          .descript-style span{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: 200;
+            max-width: max-content;
+          }
+          .descript-style h1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            max-width: max-content;
+          }
+          #des-height{
+            line-height: 52.8px;
+          }
+        }
