@@ -48,7 +48,7 @@ h3{
       background-color: #ffffff;     
     }
 .portfolio-text{
-      font-size: 12px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
     position: relative;
@@ -56,39 +56,39 @@ h3{
     transition: all .5s;
     }
 .portfo-under{
-        color:black;
+    color:black;
  }  
 .portfo-under:hover{
-          color: #6b6969;
+    color: #6b6969;
  }
 .portfo-under::after{
-          content: "";
-          display: block;
-          border-bottom: 3px solid #6b6969;
-          transform: scaleX(0);
-          transform-origin: center;
-          -ms-transition: all 300ms linear 0s;
-            -moz-transition: all 300ms linear 0s;
-            -webkit-transition: all 300ms linear 0s;
-            -o-transition: all 300ms linear 0s;
-          transition: all 300ms linear 0s;
+    content: "";
+    display: block;
+    border-bottom: 3px solid #6b6969;
+    transform: scaleX(0);
+    transform-origin: center;
+    -ms-transition: all 300ms linear 0s;
+    -moz-transition: all 300ms linear 0s;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
  }        
 .portfo-under:hover::after{
-          transform: scaleX(1);
+    transform: scaleX(1);
  }
 .form-color{
-            background-color: rgba(192, 186, 186, 0.3);
+    background-color: rgba(192, 186, 186, 0.3);
  }
- .contact{
+.contact{
     top:30px;
   }
-  .outline-f{
+.outline-f{
     outline: 0;
   }
-  .services-height{
+.services-height{
     height: 300px !important;
   }
-  .services-title h3{
+.services-title h3{
     width: 100%;
     height: 100px;
     line-height: 100px;
@@ -96,29 +96,29 @@ h3{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
-  .services-item{
+.services-item{
     text-align: center;
   }
-  .services-item h6{
+.services-item h6{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
   }
-  .services-item p{
+.services-item p{
     font-weight: 600;
   }  
-  .services-icon:hover{
+.services-icon:hover{
     background: #1c1c1c;
     color: #eee;
   }
-  .about{
+.about{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
   }
-      body{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        text-transform: capitalize;
-      }
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
       /*size xs*/
       @media screen and (max-width:575px){
         .services-icon{
@@ -225,42 +225,42 @@ h3{
             }
         }
         /*size lg */
-@media screen and (min-width:992px) and (max-width:1199px){
-  #nav-li{
-    margin-left: 300px !important;
-  }
-  .services-icon{
-    width: 70px;
-    height: 70px;
-    font-size: 25px !important;
-    line-height: 70px;
-    background-color: #f4f4f4;
-    transition: all .5s;
-  }
-  .descript-style{
-    text-transform: capitalize;
-    letter-spacing: .15em;
-    height: 52.8px;
-    line-height: 52.8px;
-    text-align: center;
-    }
-    .descript-style span{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 44px;
-      font-weight: 200;
-      max-width: max-content;
-    }
-    .descript-style h1{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 44px;
-      font-weight: 400;
-      max-width: max-content;
-    }
-    #des-height{
-      line-height: 52.8px;
-    }
-}
-/*size xl */
+        @media screen and (min-width:992px) and (max-width:1199px){
+         #nav-li{
+          margin-left: 300px !important;
+            }
+         .services-icon{
+          width: 70px;
+          height: 70px;
+          font-size: 25px !important;
+          line-height: 70px;
+          background-color: #f4f4f4;
+          transition: all .5s;
+            }
+          .descript-style{
+           text-transform: capitalize;
+           letter-spacing: .15em;
+           height: 52.8px;
+           line-height: 52.8px;
+           text-align: center;
+            }
+          .descript-style span{
+           font-family: 'Montserrat', sans-serif;
+           font-size: 44px;
+           font-weight: 200;
+           max-width: max-content;
+           }
+          .descript-style h1{
+           font-family: 'Montserrat', sans-serif;
+           font-size: 44px;
+           font-weight: 400;
+           max-width: max-content;
+           }
+          #des-height{
+           line-height: 52.8px;
+          }
+       }
+/*size xl */ 
 @media screen and (min-width:1200px) and (max-width:1399px){
   #nav-li{
     margin-left: 400px !important;
