@@ -329,3 +329,30 @@ body{
       max-width: max-content;
     }
 }
+.blog-h img{
+  -ms-transition: transform 300ms linear 0s;
+  -moz-transition: transform 300ms linear 0s;
+  -webkit-transition: transform 300ms linear 0s;
+  -o-transition: transform 300ms linear 0s;
+  transition: transform 300ms linear 0s;
+}
+.blog-h img:hover{
+  transform: scale(1.2);
+}
+.blog-text h4{
+  font-size:20px ;
+  line-height: 32px;
+  text-decoration: none;
+}
+.blog-text h6{
+  font-size: 12px;
+  line-height: 13.2px;
+}
+.blog-text span a{
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 14px;
+  line-height: 20px;
+}
+.outline-f{
+  outline: 0;
+}
