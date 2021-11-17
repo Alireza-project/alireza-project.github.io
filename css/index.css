@@ -356,3 +356,6 @@ body{
 .outline-f{
   outline: 0;
 }
+.nav{
+  z-index: 999;
+}
