@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 h3{
     font-size: 30px;
     text-align: center;
@@ -363,4 +366,11 @@ body{
   width: 100%;
   height: auto;
   vertical-align: middle;
+}
+div.profito-theme:hover div.overlay{
+  visibility:visible;
+  opacity:.9;
+  cursor: pointer;
+}div.profito-theme{
+  position:relative ;
 }
