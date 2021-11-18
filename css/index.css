@@ -359,3 +359,8 @@ body{
 .nav{
   z-index: 999;
 }
+.hero{
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
